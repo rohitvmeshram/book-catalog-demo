@@ -1,0 +1,88 @@
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "Sample Book 1",
+    "author": "Sample Author 1",
+    "publication_year": 2023,
+    "isbn": "1112223334444"
+}
+### Second Book
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "Sample Book 2",
+    "author": "Sample Author 2",
+    "publication_year": 2025,
+    "isbn": "5556667778885"
+}
+
+### Third Book
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "Sample Book 3",
+    "author": "Sample Author 3",
+    "publication_year": 2025,
+    "isbn": "9998887776665"
+}
+
+### Book 1
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publication_year": 1925,
+    "isbn": "1112223334444"
+}
+
+### Book 2
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "publication_year": 1960,
+    "isbn": "5556667778889"
+}
+
+### Book 3
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "1984",
+    "author": "George Orwell",
+    "publication_year": 1949,
+    "isbn": "9998887776665"
+}
+
+### Book 4
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publication_year": 1813,
+    "isbn": "1234567890123"
+}
+
+### Book 5
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+
+{
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "publication_year": 1937,
+    "isbn": "9876543210987"
+}
+
+### List All Books
+GET http://127.0.0.1:8000/api/books/
