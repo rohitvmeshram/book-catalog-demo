@@ -60,6 +60,16 @@ This is a Django-based web application for managing a book catalog with CRUD fun
 - **Fetch from Google Books**: `GET /api/fetch-book/?isbn=<isbn>`
 - **Visualization**: `GET /visualization/`
 
+# Simple Django App
+
+## Build with Docker
+docker build -t simple-django-app .
+
+## Run
+docker run -p 8000:8000 simple-django-app
+
+Build ID from my run: q1zrojultbm34x39svyj6uwwx (completed in 5m 30s on desktop-linux).
+
 ## Testing
 - Run tests: `python manage.py test`
 
