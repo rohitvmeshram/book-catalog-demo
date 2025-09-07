@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'book_catalog',  # 'postgres' for Supabase
         'USER': 'postgres',
         'PASSWORD': '123456',
-        'HOST': 'db',  # Supabase host
+        'HOST': 'localhost',  # Supabase host
         'PORT': '5432',
     }
 }
