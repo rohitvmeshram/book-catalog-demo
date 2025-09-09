@@ -37,7 +37,7 @@ Content-Type: application/json
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "publication_year": 1925,
-    "isbn": "1112223334444"
+    "isbn": "111222333444"
 }
 
 ### Book 2
@@ -48,7 +48,7 @@ Content-Type: application/json
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "publication_year": 1960,
-    "isbn": "5556667778889"
+    "isbn": "555666777888"
 }
 
 ### Book 3
@@ -59,7 +59,7 @@ Content-Type: application/json
     "title": "1984",
     "author": "George Orwell",
     "publication_year": 1949,
-    "isbn": "9998887776665"
+    "isbn": "999888777666"
 }
 
 ### Book 4
@@ -70,7 +70,7 @@ Content-Type: application/json
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "publication_year": 1813,
-    "isbn": "1234567890123"
+    "isbn": "123456789012"
 }
 
 ### Book 5
@@ -81,8 +81,57 @@ Content-Type: application/json
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "publication_year": 1937,
-    "isbn": "9876543210987"
+    "isbn": "987654321098"
+}
+### Book 7
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+{
+"title": "Sample Book 1",
+"author": "Sample Author 1",
+"publication_year": 2023,
+"isbn": "1112223334444"
 }
 
+### Book 8
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+{
+"title": "Sample Book 2",
+"author": "Sample Author 2",
+"publication_year": 2023,
+"isbn": "2223334445555"
+}
+
+### Book 9
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+{
+"title": "Sample Book 3",
+"author": "Sample Author 3",
+"publication_year": 2023,
+"isbn": "3334445556666"
+}
+
+### Book 10
+POST http://127.0.0.1:8000/api/books/
+Content-Type: application/json
+{
+"title": "Sample Book 4",
+"author": "Sample Author 4",
+"publication_year": 2023,
+"isbn": "4445556667777"
+}
+
+### Book 11
+POST http://127.0.0.1:8000/api/books/
+
+Content-Type: application/json
+{
+"title": "Sample Book 5",
+"author": "Sample Author 5",
+"publication_year": 2023,
+"isbn": "5556667778888"
+}
 ### List All Books
 GET http://127.0.0.1:8000/api/books/
